@@ -1,0 +1,8 @@
+{
+  "name": "game-asset-format-converter",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node --loader ts-node/esm src/asset_conversion_service.ts", "test": "node --loader ts-node/esm test/asset_conversion_service.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"@types/node": "^22.0.0", "ts-node": "^10.9.2", "typescript": "^5.5.0"}
+}
